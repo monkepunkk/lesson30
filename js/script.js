@@ -24,3 +24,9 @@ const movieDB = {
     ]
 };
 
+const promo__adv = document.querySelector('.promo__adv');
+promo__adv.remove();
+const films_name = document.querySelectorAll('.promo__interactive-item'),
+      genre = docunet.querySelector('.promo__genre'),
+      promo__bg = document.querySelector('.promo__bg');
+
